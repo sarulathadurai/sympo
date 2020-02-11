@@ -1,0 +1,110 @@
+@font-face{
+ font-family:'digital-clock-font';
+ src: url('SUBWT.ttf');
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: rgba(34,34,34,1);
+    border-left: 1px solid #444;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #aaa;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(150,150,150,0.6);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.mi-reloj {
+  height: 10%;
+  margin: 0 auto;
+  padding: auto;
+  width: auto;
+  
+}
+
+ .mi-reloj img{
+
+	width: 200px;
+	height: 200px;
+}
+
+.mi-reloj p{
+
+	text-align: center; 
+	font-size: 80px;
+	color: rgba(0,0,0,0.6);
+   text-shadow: 0px 3px 0px #06327a,
+                 0px 14px 10px rgba(0,0,0,0.15),
+                 0px 24px 2px rgba(0,0,0,0.1),
+                 0px 34px 30px rgba(0,0,0,0.1);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+#demo {
+  text-align: center;
+  font-size: 6.5em;
+  font-family:'digital-clock-font';
+  color: #c891ba;
+  letter-spacing: -7px;
+  font-weight: 100;
+  text-transform: uppercase;
+  animation: blur 1s ease-out infinite;
+  text-shadow: 0px 0px 5px black, 0px 0px 7px black;
+}
+#demo1 {
+  text-align: center;
+  font-size: 6.5em;
+  font-family:'digital-clock-font';
+  color: #c891ba;
+  letter-spacing: -7px;
+  font-weight: 100;
+  text-transform: uppercase;
+  animation: blur 1s ease-out infinite;
+  text-shadow: 0px 0px 5px black, 0px 0px 7px black;
+}
+
+@media screen and (max-width: 500px){
+  #demo {
+    font-size: 3.5em;
+  }
+
+  #demo1 {
+    font-size: 3.5em;
+  }
+
+}
+
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 10px black,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;
+  }
+}
+
+}
+
